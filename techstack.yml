@@ -1,0 +1,172 @@
+repo_name: 2lambda123/wolverine
+report_id: 33674dfa72d25a339c91686f0e772e00
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:18:36+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/wolverine.gemspec
+  detection_source: wolverine.gemspec
+  last_updated_by: Burke Libbey
+  last_updated_on: 2012-03-01 20:59:32.000000000 Z
+- name: Lua
+  description: Powerful, fast, lightweight, embeddable scripting language
+  website_url: http://www.lua.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2118/128px-Lua-Logo.svg.png
+  detection_source_url: https://github.com/2lambda123/wolverine
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/wolverine
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/wolverine
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/.github/workflows/cla.yml
+  detection_source: ".github/workflows/cla.yml"
+  last_updated_by: Yevhenii Huselietov
+  last_updated_on: 2022-07-16 13:19:15.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/wolverine.gemspec
+  detection_source: wolverine.gemspec
+  last_updated_by: Burke Libbey
+  last_updated_on: 2012-03-01 20:59:32.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Burke Libbey
+  last_updated_on: 2012-03-03 06:39:28.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/wolverine.gemspec
+  detection_source: wolverine.gemspec
+  last_updated_by: Burke Libbey
+  last_updated_on: 2012-03-01 20:59:32.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  version: 2.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/wolverine.gemspec
+  detection_source: wolverine.gemspec
+  last_updated_by: Burke Libbey
+  last_updated_on: 2012-03-03 07:14:55.000000000 Z
+- name: mocha
+  description: Mocking and stubbing library with JMock/SchMock syntax
+  package_url: https://rubygems.org/mocha
+  version: 0.10.5
+  license: MIT,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18834/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/wolverine.gemspec
+  detection_source: wolverine.gemspec
+  last_updated_by: Burke Libbey
+  last_updated_on: 2012-03-03 07:14:55.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/wolverine.gemspec
+  detection_source: wolverine.gemspec
+  last_updated_by: Burke Libbey
+  last_updated_on: 2012-03-03 06:50:37.000000000 Z
+- name: redis
+  description: A Ruby client that tries to match Redis' API one-to-one
+  package_url: https://rubygems.org/redis
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18860/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/wolverine.gemspec
+  detection_source: wolverine.gemspec
+  last_updated_by: Leo Venegas
+  last_updated_on: 2013-01-03 01:10:55.000000000 Z
+- name: yard
+  description: YARD is a documentation generation tool for the Ruby programming language
+  package_url: https://rubygems.org/yard
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/2lambda123/wolverine/blob/master/wolverine.gemspec
+  detection_source: wolverine.gemspec
+  last_updated_by: Burke Libbey
+  last_updated_on: 2012-03-03 06:57:28.000000000 Z
